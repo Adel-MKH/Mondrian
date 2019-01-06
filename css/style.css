@@ -1,0 +1,118 @@
+.bg_yellow {
+  background-color: yellow;
+}
+
+.bg_red {
+  background-color: red;
+}
+
+.bg_blue {
+  background-color: blue;
+}
+
+.border-top {
+  border-top: 5px solid white !important;
+}
+
+.border-bottom {
+  border-bottom: 5px solid white !important;
+}
+
+.border-right {
+border-right: 5px solid white !important;
+}
+
+.container {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  border-bottom: 10px solid black;
+}
+
+.container2 {
+  display: flex;
+  height: 33%;
+  width: 100%;
+  border-bottom: 10px solid black;
+}
+
+.container3 {
+  display: flex;
+  height: 37%;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 95.5%;
+}
+
+.container-half {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+}
+
+.container-half:last-of-type{
+  border-top: 10px solid black;
+}
+
+
+.case1 {
+  border-right: 5px solid black;
+  width: 5%;
+  height: 100%;
+}
+
+.case2 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  width: 15%;
+  height: 100%;
+}
+
+.case3 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  width: 35%;
+  height: 100%;
+}
+
+.case4 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  width: 45%;
+  height: 100%;
+}
+
+.case5 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 100%;
+  width: 20%;
+}
+
+.case6 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 100%;
+  width: 25%;
+}
+
+.case7 {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 100%;
+  width: 60%;
+}
